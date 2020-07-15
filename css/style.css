@@ -1,5 +1,8 @@
 /* NAVBAR */
-header{
-  background-color: red;
+.box{
+  background-color: lightblue;
+  width: 100px;
+  height: 100px;
+  padding:15px;
 }
 /* //NAVBAR */
