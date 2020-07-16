@@ -28,6 +28,9 @@ body {
 .color_blue-p{
   color: #2c3e50;
 }
+.color_green{
+  color: #1abc9c;
+}
 .bg_green{
   background-color: #1abc9c;
 }
@@ -92,10 +95,15 @@ h2{
 
 /* PORTFOLIO */
 .box_img{
-  width: 100%;
+  width: 70%;
   border-radius: 10px;
   margin-bottom: 30px;
+}
 
+.box_img:hover{
+  transition: all 0.2s ease-in-out;
+  opacity: 0.3;
+  background-color: #1abc9c;
 }
 /* //PORTFOLIO */
 
@@ -122,7 +130,23 @@ h2{
 /* CONTACT ME */
 
 /* LINK UTILI */
+.link{
+  height: 450px;
+}
+
+.list_inline{
+  text-decoration: none;
+  display: inline;
+  color: white;
+  font-size: 23px;
+  padding: 0 10px;
+}
 /* //LINK UTILI */
 
 /* COPY */
+.copy{
+  height: 80px;
+  padding: 30px;
+  background-color: #1a252f;
+}
 /*//COPY */
