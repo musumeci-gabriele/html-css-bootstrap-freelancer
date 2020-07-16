@@ -67,8 +67,9 @@
 
       </section>
       <!-- JUMBOTRON -->
+
       <!-- PORTFOLIO -->
-      <section class="portfolio">
+      <section class="portfolio marg_pad">
 
         <div class="container ">
           <h2 class="color_blue-p"><strong>portfolio</strong></h2>
@@ -120,35 +121,34 @@
       <!-- PORTFOLIO -->
 
       <!-- ABOUT -->
-      <section class="about">
-        <h2 class="color_blue-p"><strong>about</strong></h2>
+      <section class="about bg_green">
+        <h2 class="pad_top"><strong>about</strong></h2>
 
         <!-- separatore a stella -->
-        <div class="separatore color_blue-p">
-          <hr class="linea color_blue-p">
+        <div class="separatore">
+          <hr class="linea">
             <span class="glyphicon glyphicon-star" ></span>
-          <hr class="linea color_blue-p">
+          <hr class="linea">
         </div>
         <!-- //separatore a stella -->
 
-          <div class="wrapper-imezioni">
+          <div class="wrapper">
             <div class="container-fluid">
-
-              <div class="row">
+              <div class="row box">
                 <!-- //Paragrafi -->
-                <div class="col-xs-6">
+                <div class="col-xs-12 col-sm-6 col-md-6">
                   <p>Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional SASS stylesheets for easy customization.</p>
                 </div>
-                <div class="col-xs-6">
+                <div class="col-xs-12 col-sm-6 col-md-6">
                   <p> You can create your own custom avatar for the masthead, change the icon in the dividers, and add your email address to the contact form to make it fully functional!</p>
                 </div>
                 <!-- //Paragrafi -->
-
-                <!-- bottone -->
-                <button type="button" class="btn btn-primary btn-lg"><i class="fas fa-star"></i>Free Download</button>
-                <!-- //bottone -->
-
               </div>
+              <!-- bottone -->
+              <div class="col-xs-12 col-sm-12 col-md-12 text-center">
+                <button type="button" class="btn btn-default btn-lg bg_green"><span class="glyphicon glyphicon-save" aria-hidden="true"></span> Free Download</button>
+              </div>
+              <!-- //bottone -->
             </div>
           </div>
 
@@ -158,16 +158,37 @@
       <!-- //ABOUT -->
 
       <!-- CONTACT ME -->
-      <section>
-        <h2 class="text-center">Contact me</h2>
-        <div class="container">
-          <div class="row">
-            <div class="">
+      <section class="contact_me marg_pad">
+        <h2 class="color_blue-p"><strong>contact me</strong></h2>
 
-            </div>
-          </div>
-
+        <!-- separatore a stella -->
+        <div class="separatore color_blue-p">
+          <hr class="linea color_blue-p">
+            <span class="glyphicon glyphicon-star" ></span>
+          <hr class="linea color_blue-p">
         </div>
+        <!-- //separatore a stella -->
+        <form class="box pad_bot">
+         <div class="form-group">
+           <input type="text" class="form-control" placeholder="Name">
+         </div>
+         <div class="form-group">
+           <input type="email" class="form-control" placeholder="Email">
+         </div>
+         <div class="form-group">
+           <input type="tel" class="form-control" placeholder="Phone Number">
+         </div>
+         <div class="form-group">
+           <textarea class="form-control" placeholder="Message" cols="20" rows="4"></textarea>
+         </div>
+          <div class="form-group text-left"><button class="btn btn-primary btn-xl" id="sendMessageButton" type="submit">Send</button>
+          </div>
+       </form>
+
+
+
+
+
       </section>
       <!-- //CONTACT ME -->
 
@@ -176,7 +197,7 @@
     <!-- FOOTER -->
     <footer>
       <!-- LINK UTILI -->
-      <section>
+      <section class="link">
         <div class="container">
           <div class="row">
             <div class="col-xs-12 col-md-4">
@@ -192,10 +213,14 @@
         </div>
       </section>
       <!--//LINK UTILI -->
-      <!-- Copyright -->
-      <section>
 
+      <!-- Copyright -->
+      <section class="copy">
+        <div class="container">
+          <p>Copyright © Your Website 2020</p>
+        </div>
       </section>
+      <!-- //Copyright -->
     </footer>
     <!-- //FOOTER -->
 
