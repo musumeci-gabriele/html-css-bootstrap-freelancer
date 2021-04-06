@@ -1,245 +1,226 @@
-<!DOCTYPE html>
-<html lang="en" dir="ltr">
+  <!DOCTYPE html>
+  <html lang="en">
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Boostrap</title>
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
-    <link rel="shortcut icon" href="img/G.jpg">
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+      <title>Bootstrap Freelance | Home</title>
+      <!-- Link FontAwesome -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+      <!-- Link Google Font -->
+      <!-- Link Bootstrap 3 -->
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+      <!-- Link foglio di stile personale -->
+      <link rel="stylesheet" href="css/style.css">
+      <link rel="shortcut icon" href="img/G.jpg">
   </head>
-
   <body>
-    <!-- INTESTAZIONE -->
-    <header class="header">
-
-      <nav class="navbar bg_blue-p navbar-fixed-top">
-        <div class="container">
-          <div class="navbar-header text_white">
-            <button type="button" class=" navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-              <span class="sr-only">Toggle navigation</span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand up_text text_white" href="#">start bootstrap</a>
-          </div>
-          <div id="navbar" class="navbar-collapse collapse">
-            <ul class="nav navbar-nav navbar-right up_text hover_text">
-              <li><a id="hover_text" href="#" class="text_white ">portfolio</a></li>
-              <li><a id="hover_text" href="#" class="text_white hover_text">about</a></li>
-              <li><a id="hover_text"href="#" class="text_white hover_text">contact</a></li>
-            </ul>
-          </div><!--/.nav-collapse -->
-        </div>
-      </nav>
-    </header>
-    <!-- INTESTAZIONE -->
-    <!-- Main -->
-    <main>
-      <!-- JUMBOTRON -->
-      <section class="jumbo_section">
-
-        <div class="row">
-          <div class="bg_green col-xs-12 col-sm-12 col-md-12 col-lg-12">
-            <div class="jumbo_text">
-              <img id="avatar" src="img/avataaars.svg" alt="avatar">
-              <h1 class=""><strong>Start Bootstrap</strong></h1>
-
-              <!-- separatore a stella -->
-              <div class="separatore">
-                <hr class="linea">
-                  <span class="glyphicon glyphicon-star" ></span>
-                <hr class="linea">
+      
+      
+      <header>  
+          <!-- Navbar -->
+          <nav class="navbar navbar-default main_nav">
+              <div class="container">
+  
+                  <!-- Logo & Hamburger-->
+                  <div class="navbar-header">
+                      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                          <span class="sr-only">Toggle navigation</span>
+                          <span class="icon-bar"></span>
+                          <span class="icon-bar"></span>
+                          <span class="icon-bar"></span>
+                      </button>
+                      <a class="navbar-brand" href="#">Start Bootstrap</a>
+                  </div>
+  
+                 
+                  <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                      <ul class="nav navbar-nav navbar-right">
+                          <li><a href="#">Portfolio</a></li>
+                          <li><a href="#">Contact</a></li>
+                          <li><a href="#">About</a></li>
+                      </ul>
+                  </div>
               </div>
-              <!-- //separatore a stella -->
-
+          </nav>
+          <!--/ Navbar -->
+      </header>
+      
+      <!-- Jumbotron -->
+      <section id="jumbotron">
+          <div class="container">
               <div class="row">
-               <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                 <p class="jobs">Graphic Artist - Web Designer - Illustrator</p>
-                </div>
+                  <div class="col-xs-12 text-uppercase">
+                      <img src="img/profile.png" alt="profilo jumbotron">
+                      <h1>Start Bootstrap</h1>
+                      <div class="white_star">
+                          <i class="fas fa-star"></i>
+                      </div>
+                      <p>Graphic artist - Web designer - Illustrator</p>
+                  </div>
               </div>
-            </div>
           </div>
-        </div>
-
       </section>
-      <!-- JUMBOTRON -->
-
-      <!-- PORTFOLIO -->
-      <section class="portfolio marg_pad">
-
-        <div class="container ">
-          <h2 class="color_blue-p"><strong>portfolio</strong></h2>
-          <!-- separatore a stella -->
-          <div class="separatore color_blue-p">
-            <hr class="linea color_blue-p">
-              <span class="glyphicon glyphicon-star" ></span>
-            <hr class="linea color_blue-p">
-          </div>
-          <!-- //separatore a stella -->
-
-          <!-- box immagini -->
-          <div class="row">
-            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
-              <div class="box-portfolio">
-                <img class="box_img img_responsive" src="img/cabin.png" alt="cabin">
+      <!--/ Jumbotron -->
+  
+      <main>  
+          <!-- Portfolio -->
+          <section id="portfolio">
+              <div class="container">
+                  <div class="row text-center">
+                      <h2>Portfolio</h2>
+                      <div class="blk_star">
+                          <i class="fas fa-star"></i>
+                      </div>
+                  </div>
+  
+                  <div class="row">
+                      <div class="col-sm-6 col-lg-4 mb_2p">
+                              <img class="img-rounded" src="img/cabin.png" alt="cabin">
+                              <div class="overlay img-rounded">
+                                  <i class="fas fa-plus-circle"></i>
+                              </div>
+                      </div>
+                      <div class="col-sm-6 col-lg-4 mb_2p">
+                          <img class="img-rounded" src="img/cake.png" alt="cake">
+                          <div class="overlay img-rounded">
+                              <i class="fas fa-plus-circle"></i>
+                          </div>
+                      </div>
+                      <div class="col-sm-6 col-lg-4 mb_2p">
+                          <img class="img-rounded" src="img/circus.png" alt="circus">
+                          <div class="overlay img-rounded">
+                              <i class="fas fa-plus-circle"></i>
+                          </div>
+                      </div>
+                      <div class="col-sm-6 col-lg-4 mb_2p">
+                          <img class="img-rounded" src="img/game.png" alt="game">
+                          <div class="overlay img-rounded">
+                              <i class="fas fa-plus-circle"></i>
+                          </div>
+                      </div>
+                      <div class="col-sm-6 col-lg-4 mb_2p">
+                          <img class="img-rounded" src="img/safe.png" alt="safe">
+                          <div class="overlay img-rounded">
+                              <i class="fas fa-plus-circle"></i>
+                          </div>
+                      </div>
+                      <div class="col-sm-6 col-lg-4 mb_2p">
+                          <img class="img-rounded" src="img/submarine.png" alt="submarine">
+                          <div class="overlay img-rounded">
+                              <i class="fas fa-plus-circle"></i>
+                          </div>
+                      </div>
+                  </div>
               </div>
-            </div>
-            <div class="col-xs-12 col-sm-6 col-md-4">
-              <div class="box-portfolio">
-                <img class="box_img img_responsive" src="img/cake.png" alt="cake">
+          </section>
+          <!--/ Portfolio -->
+  
+          <!-- About -->
+          <section id="about">
+              <div class="container">
+                  <div class="row text-center">
+                      <div class="col-xs-12">
+                          <h2>About</h2>
+                          <div class="white_star">
+                              <i class="fas fa-star"></i>
+                          </div>
+                      </div>
+                  </div>
+  
+                  <div class="row">
+                      <div class="col-sm-6">
+                          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed, itaque molestias culpa sapiente aperiam labore ex dolor eos, veritatis vel minus velit fugit expedita id voluptatibus laboriosam, repudiandae neque quibusdam!</p>
+                      </div>
+                      <div class="col-sm-6">
+                          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Animi explicabo repellat nam molestias, voluptatum, in at cupiditate ullam, deserunt optio facere non neque culpa deleniti accusamus velit amet eos. Praesentium.</p>
+                      </div>
+                  </div>
+                  <div class="row">
+                      <div class="main_btn text-center col-xs-12">
+                          <a class="btn btn-default btn-lg" href="#" role="button"><i class="fas fa-download"></i> Download</a>
+                      </div>
+                  </div>
               </div>
-            </div>
-            <div class="col-xs-12 col-sm-6 col-md-4">
-              <div class="box-portfolio">
-                <img class="box_img img_responsive" src="img/circus.png" alt="circus">
+          </section>
+          <!--/ About -->
+
+          <!-- Contact me -->
+          <section id="contact">
+              <div class="container">
+                  <div class="row text-center">
+                      <div class="col-xs-12">
+                          <h2>Contact Me</h2>
+                          <div class="blk_star">
+                              <i class="fas fa-star"></i>
+                          </div>
+                      </div>
+                  </div>
+  
+                  <!-- Form di contatto -->
+                  <div class="row">
+                      <div class="col-xs-12">
+                          <form class="contact_form">
+                              <div class="form-group">
+                                  <label for="inputName1">Name</label>
+                                  <input type="text" class="form-control">
+                              </div>
+                              <div class="form-group">
+                                  <label for="inputEmail1">Email address</label>
+                                  <input type="email" class="form-control" id="inputEmail1">
+                              </div>
+                              <div class="form-group">
+                                  <label for="inputPhoneNumber1">Phone Number</label>
+                                  <input type="text" class="form-control" id="inputPhoneNumber1">
+                              </div>
+                              <div class="form-group">
+                                  <label for="inputMessage1">Message</label>
+                                  <textarea class="form-control" rows="5"></textarea>
+                              </div>
+                              <button type="submit" class="btn btn-default btn-lg">Send</button>
+                          </form>
+                      </div>
+                  </div>
               </div>
-            </div>
-            <div class="col-xs-12 col-sm-6 col-md-4">
-              <div class="box-portfolio">
-                <img class="box_img img_responsive" src="img/game.png" alt="game">
+          </section>
+      </main>
+  
+      <!-- Footer -->
+      <footer class="text-center">
+       
+          <section id="footer_nav">
+              <div class="container">
+                  <div class="row">
+                      <div class="col-md-4">
+                          <h3>Location</h3>
+                          <p>2215 Jhon Daniel Drive Clark, MO 54243</p>
+                      </div>
+                      <div class="col-md-4">
+                          <h3>Around the Web</h3>
+                          <ul>
+                              <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                              <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                              <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                              <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                          </ul>
+                      </div>
+                      <div class="col-md-4">
+                          <h3>About Freelancer</h3>
+                          <p>Freelance is a free to use, open source Bootstrap theme created by <span class="success">Start Bootstrap</span>.</p>
+                      </div>
+                  </div>
               </div>
-            </div>
-            <div class="col-xs-12 col-sm-6 col-md-4">
-              <div class="box-portfolio">
-                <img class="box_img img_responsive" src="img/safe.png" alt="safe">
+          </section>
+  
+          <section id="copy">
+              <div class="container">
+                  <div class="row">
+                      <div class="col-xs-12">
+                          <p>Copyright &copy; 2020 </p>
+                      </div>
+                  </div>
               </div>
-            </div>
-            <div class="col-xs-12 col-sm-6 col-md-4">
-              <div class="box-portfolio">
-                <img class="box_img img_responsive" src="img/submarine.png"alt="cabin">
-              </div>
-            </div>
-          </div>
-          <!-- //box immagini -->
-        </div>
-
-      </section>
-      <!-- PORTFOLIO -->
-
-      <!-- ABOUT -->
-      <section class="about bg_green">
-        <h2 class="pad_top"><strong>about</strong></h2>
-
-        <!-- separatore a stella -->
-        <div class="separatore">
-          <hr class="linea">
-            <span class="glyphicon glyphicon-star" ></span>
-          <hr class="linea">
-        </div>
-        <!-- //separatore a stella -->
-
-          <div class="wrapper">
-            <div class="container-fluid">
-              <div class="row box">
-                <!-- //Paragrafi -->
-                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-                  <p>Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional SASS stylesheets for easy customization.</p>
-                </div>
-                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-                  <p> You can create your own custom avatar for the masthead, change the icon in the dividers, and add your email address to the contact form to make it fully functional!</p>
-                </div>
-                <!-- //Paragrafi -->
-              </div>
-              <!-- bottone -->
-              <div class="col-xs-12 col-sm-12 col-md-12 text-center">
-                <button type="button" class="btn btn-default btn-lg bg_green"><span class="glyphicon glyphicon-save" aria-hidden="true"></span> Free Download</button>
-              </div>
-              <!-- //bottone -->
-            </div>
-          </div>
-
-
-
-      </section>
-      <!-- //ABOUT -->
-
-      <!-- CONTACT ME -->
-      <section class="contact_me marg_pad">
-        <h2 class="color_blue-p"><strong>contact me</strong></h2>
-
-        <!-- separatore a stella -->
-        <div class="separatore color_blue-p">
-          <hr class="linea color_blue-p">
-            <span class="glyphicon glyphicon-star" ></span>
-          <hr class="linea color_blue-p">
-        </div>
-        <!-- //separatore a stella -->
-        <form class="box pad_bot">
-         <div class="form-group">
-           <input type="text" class="form-control" placeholder="Name">
-         </div>
-         <div class="form-group">
-           <input type="email" class="form-control" placeholder="Email">
-         </div>
-         <div class="form-group">
-           <input type="tel" class="form-control" placeholder="Phone Number">
-         </div>
-         <div class="form-group">
-           <textarea class="form-control" placeholder="Message" cols="20" rows="4"></textarea>
-         </div>
-          <div class="form-group text-left"><button class="btn btn-primary btn-xl" id="sendMessageButton" type="submit">Send</button>
-          </div>
-       </form>
-
-
-
-
-
-      </section>
-      <!-- //CONTACT ME -->
-
-    </main>
-    <!--// Main -->
-    <!-- FOOTER -->
-    <footer>
-      <!-- LINK UTILI -->
-      <section class="link bg_blue-p">
-        <div class="container">
-          <div class="row pad_top">
-            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
-              <div class="pad_bot ">
-                <h3 class="up_text mb-4"><strong>Locations</strong></h3>
-                <p class="lead mb-0">2215 John Daniel Drive <br> Clark, MO 65243</p>
-              </div>
-            </div>
-            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
-              <div class=" mb-5 mb-lg-0">
-                <h3 class="up_text mb-4"><strong>Around the web</strong></h3>
-                <ul class="social_list ">
-                  <li class="list_inline"><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                  <li class="list_inline"><a href="#"><i class="fab fa-twitter"></i></a></li>
-                  <li class="list_inline"><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
-                  <li class="list_inline"><a href="#"><i class="fab fa-dribbble"></i></a></li>
-                </ul>
-              </div>
-            </div>
-            <div class="ccol-xs-12 col-sm-12 col-md-4 col-lg-4">
-              <h3 class="up_text mb-4"><strong>About freelancer</strong></h3>
-              <p>Freelance is a free to use, MIT licensed Bootstrap theme created by <a class="color_green" href="#">Start Bootstrap</a>.</p>
-            </div>
-          </div>
-        </div>
-
-
-      </section>
-      <!--//LINK UTILI -->
-
-      <!-- Copyright -->
-      <section class="copy py-4 text-center text-white">
-        <div class="container">
-          <small>Copyright © Your Website 2020</small>
-        </div>
-      </section>
-      <!-- //Copyright -->
-    </footer>
-    <!-- //FOOTER -->
-
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
+          </section>
+      </footer>
+      <!-- /Footer -->
   </body>
 </html>
